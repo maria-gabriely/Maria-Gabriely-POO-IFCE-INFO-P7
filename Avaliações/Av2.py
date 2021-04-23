@@ -20,7 +20,6 @@ texto = input('Digite a sua mensagem: ').upper() # upper()-> CAIXA ALTA
 morse = ' '
 
 for char in texto:
-   # x = Codigo_Morse[char]
     for Key, Value in Codigo_Morse.items():
         if char == Key:
             morse += Value + ' '
