@@ -13,9 +13,7 @@
 # e demonstre o comportamento de sua função.
 
 def Triangulo (l1, l2, l3):
-   #int(l1)
-   #int(l2)
-   #int(l3)
+
    triangulo = ' '
    if l1 <= 0 or l2 <=0  or l3 <= 0:
        triangulo = False
