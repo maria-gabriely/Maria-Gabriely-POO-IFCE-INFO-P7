@@ -59,4 +59,5 @@ def main():
     print("\nInformações do trabalhador de", CL02.calcularSalario())
     print("\nInformações do trabalhador de", CL03.calcularSalario())
 
-main()
+if __name__ == '__main__':
+    main()
