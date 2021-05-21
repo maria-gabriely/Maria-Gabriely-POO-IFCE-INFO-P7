@@ -15,13 +15,13 @@ def main():
     cep= "60330-090" , cpf="350245632-76", salarioAtual=3000.00)  #c)
     
     #3.
-    MF01 = MovimentoFolha(descrição = "Salario", valor = 4500.00, tipo = "P", colaborador = CL01) #a)
+    MF01 = MovimentoFolha(descrição = "Gratificação", valor = 4500.00, tipo = "P", colaborador = CL01) #a)
     MF02 = MovimentoFolha(descrição = "Plano Saúde", valor = 1000.00, tipo = "P", colaborador = CL01) #b)
     MF03 = MovimentoFolha(descrição = "Pensão", valor = 600.00, tipo = "D", colaborador = CL01) #c)
-    MF04 = MovimentoFolha(descrição = "Salario", valor = 2500.00, tipo = "P", colaborador = CL02) #d)
+    MF04 = MovimentoFolha(descrição = "Gratificação", valor = 2500.00, tipo = "P", colaborador = CL02) #d)
     MF05 = MovimentoFolha(descrição = "Gratificação", valor = 1000.00, tipo = "P", colaborador = CL02) #e)
     MF06 = MovimentoFolha(descrição = "Faltas", valor = 600.00, tipo = "D", colaborador = CL02) #f)
-    MF07 = MovimentoFolha(descrição = "Salario", valor = 4500.00, tipo = "P", colaborador = CL03) #g) 
+    MF07 = MovimentoFolha(descrição = "Gratificação", valor = 4500.00, tipo = "P", colaborador = CL03) #g) 
     MF08 = MovimentoFolha(descrição = "Plano Saúde", valor = 1000.00, tipo = "P", colaborador = CL03) #h) 
     MF09 = MovimentoFolha(descrição = "Pensão", valor = 600.00, tipo = "D", colaborador = CL03) #i) 
     
