@@ -6,6 +6,6 @@ import json
 from sqlalchemy.orm import backref
 
 app = Flask(__name__)
-app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql://root:mariagabriely1@localhost/notafiscal'
+app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql://root:**************@localhost/notafiscal'
 
 db = SQLAlchemy(app)
