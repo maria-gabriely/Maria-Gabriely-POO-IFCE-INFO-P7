@@ -1,0 +1,1 @@
+Imagem referente à requição GET da tabela cliente.
